@@ -1,0 +1,130 @@
+{
+  "dataset_name": "hackathon_benchmark_v1",
+  "version": "1.0.0",
+  "description": "Benchmark demonstration dataset for TriQuery multi-paradigm query engine",
+  "colleges": [
+    { "college_id": 1, "name": "IIT Delhi", "city": "New Delhi", "state": "Delhi", "country": "India", "established_year": 1961 },
+    { "college_id": 2, "name": "BITS Pilani", "city": "Pilani", "state": "Rajasthan", "country": "India", "established_year": 1964 },
+    { "college_id": 3, "name": "IIIT Hyderabad", "city": "Hyderabad", "state": "Telangana", "country": "India", "established_year": 1998 },
+    { "college_id": 4, "name": "NIT Trichy", "city": "Tiruchirappalli", "state": "Tamil Nadu", "country": "India", "established_year": 1964 },
+    { "college_id": 5, "name": "RV College of Engineering", "city": "Bengaluru", "state": "Karnataka", "country": "India", "established_year": 1963 }
+  ],
+  "hackathons": [
+    { "hackathon_id": 1, "name": "Smart India Hackathon", "edition_year": 2024, "organizer": "Ministry of Education", "city": "New Delhi", "theme": "National Digital Infrastructure", "total_prize_pool": 2500000.0 },
+    { "hackathon_id": 2, "name": "HackAI Global Summit", "edition_year": 2025, "organizer": "AI Open Initiative", "city": "Bengaluru", "theme": "Artificial Intelligence & Robotics", "total_prize_pool": 1500000.0 },
+    { "hackathon_id": 3, "name": "DevSprint National", "edition_year": 2025, "organizer": "National Tech Council", "city": "Hyderabad", "theme": "FinTech & Web3 Systems", "total_prize_pool": 1000000.0 }
+  ],
+  "teams": [
+    { "team_id": 1, "team_name": "NeuralVanguard", "college_id": 1 },
+    { "team_id": 2, "team_name": "QuantumLeap", "college_id": 2 },
+    { "team_id": 3, "team_name": "VisionaryX", "college_id": 3 },
+    { "team_id": 4, "team_name": "CyberKnights", "college_id": 4 },
+    { "team_id": 5, "team_name": "ByteWave", "college_id": 5 },
+    { "team_id": 6, "team_name": "DeepPulse", "college_id": 3 }
+  ],
+  "participants": [
+    { "participant_id": 1, "full_name": "Aarav Sharma", "email": "aarav.sharma@iitd.ac.in", "college_id": 1, "graduation_year": 2026 },
+    { "participant_id": 2, "full_name": "Diya Patel", "email": "diya.patel@iitd.ac.in", "college_id": 1, "graduation_year": 2026 },
+    { "participant_id": 3, "full_name": "Rohan Verma", "email": "rohan.verma@pilani.bits-pilani.ac.in", "college_id": 2, "graduation_year": 2025 },
+    { "participant_id": 4, "full_name": "Ananya Iyer", "email": "ananya.iyer@pilani.bits-pilani.ac.in", "college_id": 2, "graduation_year": 2025 },
+    { "participant_id": 5, "full_name": "Kabir Mehta", "email": "kabir.mehta@research.iiit.ac.in", "college_id": 3, "graduation_year": 2026 },
+    { "participant_id": 6, "full_name": "Meera Reddy", "email": "meera.reddy@research.iiit.ac.in", "college_id": 3, "graduation_year": 2027 },
+    { "participant_id": 7, "full_name": "Vikram Chandran", "email": "vikram.c@nitt.edu", "college_id": 4, "graduation_year": 2025 },
+    { "participant_id": 8, "full_name": "Pooja Nair", "email": "pooja.nair@nitt.edu", "college_id": 4, "graduation_year": 2026 },
+    { "participant_id": 9, "full_name": "Siddharth Rao", "email": "siddharth.rao@rvce.edu.in", "college_id": 5, "graduation_year": 2026 },
+    { "participant_id": 10, "full_name": "Tanvi Kulkarni", "email": "tanvi.k@rvce.edu.in", "college_id": 5, "graduation_year": 2025 },
+    { "participant_id": 11, "full_name": "Arjun Gupta", "email": "arjun.gupta@research.iiit.ac.in", "college_id": 3, "graduation_year": 2026 },
+    { "participant_id": 12, "full_name": "Sana Fatima", "email": "sana.fatima@research.iiit.ac.in", "college_id": 3, "graduation_year": 2027 }
+  ],
+  "team_members": [
+    { "team_id": 1, "participant_id": 1, "role": "ML Lead" },
+    { "team_id": 1, "participant_id": 2, "role": "Systems Engineer" },
+    { "team_id": 2, "participant_id": 3, "role": "Cryptography Specialist" },
+    { "team_id": 2, "participant_id": 4, "role": "Full-Stack Developer" },
+    { "team_id": 3, "participant_id": 5, "role": "Computer Vision Researcher" },
+    { "team_id": 3, "participant_id": 6, "role": "Robotics Engineer" },
+    { "team_id": 4, "participant_id": 4, "role": "Guest Contributor" },
+    { "team_id": 4, "participant_id": 7, "role": "Backend Lead" },
+    { "team_id": 4, "participant_id": 8, "role": "Security Architect" },
+    { "team_id": 5, "participant_id": 9, "role": "Firmware Developer" },
+    { "team_id": 5, "participant_id": 10, "role": "Data Analyst" },
+    { "team_id": 6, "participant_id": 11, "role": "NLP Researcher" },
+    { "team_id": 6, "participant_id": 12, "role": "Pipeline Engineer" }
+  ],
+  "projects": [
+    {
+      "project_id": 1,
+      "team_id": 1,
+      "hackathon_id": 2,
+      "title": "AeroVision Autonomous Drone Pathfinder",
+      "track": "Robotics & AI",
+      "short_summary": "Autonomous visual SLAM and pathfinding for UAVs in GPS-denied disaster environments.",
+      "description": "AeroVision enables unmanned aerial vehicles to navigate complex indoor and subterranean disaster zones without satellite GPS signals. Using lightweight stereo-vision cameras, real-time depth estimation, and probabilistic occupancy grids, the system autonomously maps obstacle trajectories and dynamically re-routes flight paths in under 15 milliseconds. Features multi-sensor Kalman filtering and edge neural net object avoidance.",
+      "tech_stack": "Python, C++, PyTorch, ROS2, OpenCV",
+      "github_url": "https://github.com/neuralvanguard/aerovision"
+    },
+    {
+      "project_id": 2,
+      "team_id": 2,
+      "hackathon_id": 3,
+      "title": "VeriMed Zero-Knowledge Health Vault",
+      "track": "Healthcare & Web3",
+      "short_summary": "Privacy-preserving electronic health record verification using zk-SNARKs on distributed ledgers.",
+      "description": "VeriMed revolutionizes patient medical confidentiality by permitting hospitals and insurance carriers to cryptographically prove medical claim eligibility without revealing diagnoses or patient identity. Built on succinct non-interactive zero-knowledge arguments of knowledge (zk-SNARKs), the platform guarantees zero leakage of PHI (Protected Health Information) while maintaining tamper-proof audit trails for cross-border insurance settlement.",
+      "tech_stack": "Rust, Solidity, Circom, Next.js, MySQL",
+      "github_url": "https://github.com/quantumleap/verimed"
+    },
+    {
+      "project_id": 3,
+      "team_id": 3,
+      "hackathon_id": 2,
+      "title": "RadAssist Multi-Modal Chest Radiogram AI",
+      "track": "Healthcare & AI",
+      "short_summary": "Deep learning diagnostic assistant for pulmonary pathology detection from chest X-rays.",
+      "description": "RadAssist utilizes vision-language foundation models fine-tuned on clinical chest radiographs to detect 14 distinct thoracic conditions including pneumonia, pneumothorax, and pulmonary nodules. The system produces localized saliency heatmaps with Grad-CAM and generates explainable diagnostic summaries with structured differential diagnosis likelihood scores for attending radiologists.",
+      "tech_stack": "Python, PyTorch, TorchVision, FastAPI, Docker",
+      "github_url": "https://github.com/visionaryx/radassist"
+    },
+    {
+      "project_id": 4,
+      "team_id": 4,
+      "hackathon_id": 3,
+      "title": "SentinelStream Real-Time Fraud Shield",
+      "track": "FinTech & Security",
+      "short_summary": "Sub-millisecond credit card anomaly detection using streaming graph neural networks.",
+      "description": "SentinelStream intercepts banking transaction pipelines via Apache Kafka to evaluate credit card fraud probability under strict 5-millisecond latency budgets. By transforming cardholder-merchant interaction graphs into dynamic temporal graph embeddings, it catches sophisticated synthetic identity rings and bust-out credit card fraud patterns that evade legacy rule-based scoring engines.",
+      "tech_stack": "Python, PyTorch Geometric, Apache Kafka, Redis, MySQL",
+      "github_url": "https://github.com/cyberknights/sentinelstream"
+    },
+    {
+      "project_id": 5,
+      "team_id": 5,
+      "hackathon_id": 1,
+      "title": "VoltSync Decentralized Smart Grid Balancer",
+      "track": "Clean Energy & IoT",
+      "short_summary": "Peer-to-peer microgrid load balancing with embedded IoT power metering.",
+      "description": "VoltSync manages decentralized renewable energy exchange across local community microgrids. Using smart sensors installed on solar photovoltaic panels and battery storage banks, local power nodes dynamically bid and settle excess electricity supply using an automated market maker algorithm, mitigating grid frequency instability and peak-hour blackouts.",
+      "tech_stack": "C++, Embedded C, ESP32, Python, MQTT, TimescaleDB",
+      "github_url": "https://github.com/bytewave/voltsync"
+    },
+    {
+      "project_id": 6,
+      "team_id": 6,
+      "hackathon_id": 2,
+      "title": "KaggleMind Autonomous Data Science Agent",
+      "track": "Developer Tools & AI",
+      "short_summary": "Autonomous agentic workflow for automated feature engineering and tabular model tuning.",
+      "description": "KaggleMind orchestrates automated end-to-end data science pipelines for high-dimensional tabular datasets. It executes automated exploratory data analysis, cleans missing and anomalous signals, generates mathematical polynomial and interaction features, performs Bayesian hyperparameter optimization, and outputs production-ready Scikit-Learn pipelines accompanied by full model explainability reports.",
+      "tech_stack": "Python, Scikit-Learn, LightGBM, Optuna, FastAPI",
+      "github_url": "https://github.com/deeppulse/kagglemind"
+    }
+  ],
+  "awards": [
+    { "award_id": 1, "project_id": 1, "hackathon_id": 2, "prize_category": "1st Place Grand Winner", "rank_position": 1, "cash_prize": 500000.0 },
+    { "award_id": 2, "project_id": 3, "hackathon_id": 2, "prize_category": "Best Healthcare AI Innovation", "rank_position": 2, "cash_prize": 250000.0 },
+    { "award_id": 3, "project_id": 2, "hackathon_id": 3, "prize_category": "Best Cryptographic Security Project", "rank_position": 1, "cash_prize": 350000.0 },
+    { "award_id": 4, "project_id": 4, "hackathon_id": 3, "prize_category": "FinTech Runner Up", "rank_position": 2, "cash_prize": 150000.0 },
+    { "award_id": 5, "project_id": 5, "hackathon_id": 1, "prize_category": "National Clean Energy Excellence", "rank_position": 1, "cash_prize": 500000.0 },
+    { "award_id": 6, "project_id": 6, "hackathon_id": 2, "prize_category": "Best AI Developer Tool", "rank_position": 3, "cash_prize": 100000.0 }
+  ]
+}

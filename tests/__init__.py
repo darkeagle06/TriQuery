@@ -1,0 +1,3 @@
+"""
+TriQuery test suite.
+"""

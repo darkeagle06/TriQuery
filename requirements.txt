@@ -1,0 +1,25 @@
+# ==============================================================================
+# TriQuery Dependencies (Python 3.13 Compatible)
+# Note: networkx, numpy, scikit-learn, pydantic, rich, python-dotenv are already
+# installed in your current environment!
+# ==============================================================================
+
+# Core & Configuration
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+rich>=13.7.0
+
+# Relational Engine (MySQL 8.x pure-Python driver)
+pymysql>=1.1.0
+
+# Graph Engine
+networkx>=3.2.0
+
+# Vector Engine & Embeddings
+numpy>=1.26.0
+scikit-learn>=1.4.0
+
+# Web API (FastAPI backend)
+fastapi>=0.110.0
+uvicorn>=0.28.0
+httpx>=0.27.0

@@ -1,0 +1,130 @@
+/**
+ * TriQuery Design System Tokens
+ * Computational aesthetic: Obsidian base, spectral cyan/indigo accents, fine technical grid lines
+ */
+
+:root {
+  /* -------------------------------------------------------------------------
+   * Color System: Obsidian Darks & Technical Neutrals
+   * ------------------------------------------------------------------------- */
+  --bg-void: #040507;
+  --bg-canvas: #07090e;
+  --bg-surface: #0b0e15;
+  --bg-surface-elevated: #10141e;
+  --bg-surface-subtle: #141a27;
+  --bg-surface-active: #192131;
+
+  /* Glass & Overlays */
+  --bg-glass: rgba(11, 14, 21, 0.78);
+  --bg-glass-elevated: rgba(16, 20, 30, 0.88);
+
+  /* Borders & Technical Grids */
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-medium: rgba(255, 255, 255, 0.14);
+  --border-bright: rgba(255, 255, 255, 0.24);
+  --border-grid: rgba(255, 255, 255, 0.035);
+
+  /* Spectral Accents */
+  --accent-cyan: #38bdf8;
+  --accent-cyan-hover: #7dd3fc;
+  --accent-cyan-dim: rgba(56, 189, 248, 0.12);
+  --accent-cyan-glow: rgba(56, 189, 248, 0.25);
+
+  --accent-indigo: #6366f1;
+  --accent-indigo-hover: #818cf8;
+  --accent-indigo-dim: rgba(99, 102, 241, 0.14);
+
+  --accent-blue: #3b82f6;
+  --accent-blue-dim: rgba(59, 130, 246, 0.12);
+
+  /* Engine Semantic Identifiers */
+  --engine-relational: #38bdf8;
+  --engine-relational-dim: rgba(56, 189, 248, 0.12);
+  --engine-graph: #a855f7;
+  --engine-graph-dim: rgba(168, 85, 247, 0.12);
+  --engine-vector: #10b981;
+  --engine-vector-dim: rgba(16, 185, 129, 0.12);
+  --engine-fusion: #f59e0b;
+  --engine-fusion-dim: rgba(245, 158, 11, 0.12);
+
+  /* Status Colors */
+  --status-healthy: #10b981;
+  --status-healthy-dim: rgba(16, 185, 129, 0.15);
+  --status-warning: #f59e0b;
+  --status-warning-dim: rgba(245, 158, 11, 0.15);
+  --status-error: #ef4444;
+  --status-error-dim: rgba(239, 68, 68, 0.15);
+
+  /* Typography Colors */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-dim: #475569;
+  --text-inverse: #020617;
+
+  /* -------------------------------------------------------------------------
+   * Typography Scale
+   * ------------------------------------------------------------------------- */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Geist Mono', 'Fira Code', 'Consolas', monospace;
+
+  --text-xs: 0.72rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-lg: 1.0625rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.625rem;
+  --text-3xl: 2.125rem;
+  --text-4xl: 2.75rem;
+  --text-5xl: 3.5rem;
+
+  --leading-tight: 1.15;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  /* -------------------------------------------------------------------------
+   * Spacing & Sizing Scale
+   * ------------------------------------------------------------------------- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+
+  /* Max Widths */
+  --max-w-content: 1360px;
+  --max-w-prose: 780px;
+
+  /* Radii (Sharp technical edges, subtle corners) */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-full: 9999px;
+
+  /* -------------------------------------------------------------------------
+   * Focus, Motion & Transitions
+   * ------------------------------------------------------------------------- */
+  --focus-ring: 0 0 0 2px rgba(56, 189, 248, 0.5);
+  --focus-ring-offset: 2px;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 120ms;
+  --duration-normal: 220ms;
+  --duration-slow: 400ms;
+
+  --transition-fast: all var(--duration-fast) var(--ease-out-expo);
+  --transition-normal: all var(--duration-normal) var(--ease-out-expo);
+
+  /* Shadows */
+  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-medium: 0 4px 14px rgba(0, 0, 0, 0.6);
+  --shadow-glow-cyan: 0 0 20px rgba(56, 189, 248, 0.15);
+  --shadow-glow-indigo: 0 0 24px rgba(99, 102, 241, 0.18);
+}
